@@ -46,11 +46,12 @@ def kosaraju_scc(graph):
 
     return scc
 
-
+# Explanation - https://www.youtube.com/watch?v=QlGuaHT1lzA
+#
 # Other SCC components
 # Tarjan's - https://en.wikipedia.org/wiki/Tarjan%27s_strongly_connected_components_algorithm
 # Path-based - https://en.wikipedia.org/wiki/Path-based_strong_component_algorithm
-# Stackoverflow - https://stackoverflow.com/questions/70491133/implementing-kosarajus-algorithm-for-scc s
+# Stackoverflow - https://stackoverflow.com/questions/70491133/implementing-kosarajus-algorithm-for-scc
 
 
 if __name__ == '__main__':
